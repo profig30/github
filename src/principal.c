@@ -4,7 +4,7 @@
 int main(int argc, char const *argv[])
 {
     int i = NUM;
-    printf("Número:");
+    printf("Número :");
     scanf("%d", &i);
     return 0;
 }
