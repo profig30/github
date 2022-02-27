@@ -4,11 +4,11 @@
 
 # Compiler settings - Can be customized.
 CC = gcc
-CXXFLAGS = -std=c11 -Wall
+CXXFLAGS = -std=c11 -Wall -g
 LDFLAGS = 
 
 # Makefile settings - Can be customized.
-APPNAME = myapp
+APPNAME = build/principal
 EXT = .c
 SRCDIR = src
 OBJDIR = obj
